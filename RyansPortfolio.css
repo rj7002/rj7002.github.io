@@ -1,0 +1,187 @@
+body {
+    background-color: gainsboro;
+}
+.intro {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+.intro:hover {
+    /* background-color: gainsboro; */
+    /* border: 0.3vh solid gray; */
+    transform: scale(1.02);
+}
+.work,.experiences {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.nav-buttons {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h1 {
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .05em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end 3.5s 5,
+      hide-caret 0s linear 7s forwards;
+}
+h1:hover {
+    text-shadow: 0.4vh 0.4vh 0.5vh gold;
+}
+#aboutme,#projects,#experience {
+    font-size: 5vh;
+} 
+.info {
+    font-size: 2.5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+br {
+    color: black;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 25px; */
+  }
+  
+  button {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: gold;
+    border: 0.2vh,solid,black;
+    cursor: pointer;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 25px;
+  }
+  #contact {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  #contact:hover {
+    background-color: green;
+  }
+  #about-button,#project-button,#contact-button {
+    border: 0.2vh solid black;
+    background-color: gray;
+    padding: 5px;
+    margin-left: 150px;
+    /* margin: 10px; */
+    /* margin-left: 80%;
+    margin-right: 80%; */
+  }
+  #about-button:hover,#project-button:hover {
+    font-weight: bold;
+  }
+header {
+    width: 100%;
+    position: fixed;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+    background-color: rgba(255, 255, 255, 0.6); /* white with 60% opacity */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* background-color: lightgray;
+    padding: 20px; */
+
+}
+#topics {
+    text-align: center;
+    color: gray;
+}
+.projectwork,.projectwork2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-size: 2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    /* margin-left: 0.1%;
+    margin-right: 0.1%; */
+}
+#projectone,#projecttwo,#projectthree,#projectfour,#projectfive,#projectsix {
+    margin-bottom: 10px;
+    border: 0.4vh,solid,black;
+    border-radius: 10px;
+}
+#projectone:hover,#projecttwo:hover,#projectthree:hover,#projectfour:hover,#projectfive:hover,#projectsix:hover {
+    background-color: darkgray;
+    transform: scale(1.15);
+}
+footer {
+    text-align: center;
+}
+.code-buttons {
+    padding: 5px;
+    background-color: darkgray;
+    border: 0.4vh solid black;
+    margin-bottom: -20px;
+}
+.code-buttons:hover {
+    background-color: darkslategray;
+}
+.social-buttons {
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 1px;
+    justify-content: center;
+  }
+.img-group {
+    width: 5vh;
+    margin-left: 50%;
+    margin-right: 50%;
+    border-radius: 10px;
+}
+.img-group:hover {
+    border: 0.2vh solid gray;
+    border-radius: 10px;
+}
+#name {
+    margin-left: -30%;
+    margin-right: -30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul {
+    list-style-position: inside;
+    font-size: 3vh;
+}
+li {
+    font-size: 3vh;
+}
+#langs {
+    font-size: 3.5vh;
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; border-width: .05em; }
+  }
+
+  @keyframes hide-caret {
+    to { border-right: none; }
+  }
