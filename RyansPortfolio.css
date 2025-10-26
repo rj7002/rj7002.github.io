@@ -119,10 +119,10 @@ header {
 }
 #projectone,#projecttwo,#projectthree,#projectfour,#projectfive,#projectsix,#projectseven,#projecteight,#projectnine {
     margin-bottom: 10px;
-    border: 0.4vh,solid,black;
+    border: 0.4vh solid black;
     border-radius: 10px;
 }
-#projectone:hover,#projecttwo:hover,#projectthree:hover,#projectfour:hover,#projectfive:hover,#projectsix:hover {
+#projectone:hover,#projecttwo:hover,#projectthree:hover,#projectfour:hover,#projectfive:hover,#projectsix:hover,#projectseven:hover,#projecteight:hover,#projectnine:hover{
     background-color: darkgray;
     transform: scale(1.15);
 }
