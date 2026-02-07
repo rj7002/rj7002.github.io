@@ -51,42 +51,42 @@ const projects: Project[] = [
   {
     title: 'CBB Shot Analysis',
     description: 'Implemented Python web app that creates 3D college basketball shot charts for teams and individual players. Plots trends such as heat maps, assist distribution, and shot locations. Uses DeepSeek LLM to provide AI scouting reports for teams and player breakdowns for draft prospects.',
-    image: 'https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&auto=format&fit=crop&q=60',
+    image: 'https://private-user-images.githubusercontent.com/160825414/493779994-2217b724-69d9-4849-a30c-87d9aac7702f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA0ODM1ODgsIm5iZiI6MTc3MDQ4MzI4OCwicGF0aCI6Ii8xNjA4MjU0MTQvNDkzNzc5OTk0LTIyMTdiNzI0LTY5ZDktNDg0OS1hMzBjLTg3ZDlhYWM3NzAyZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwN1QxNjU0NDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MDQ0YWU4MTI1YTYzMGRlM2I0ZmQ4NmZhNmFlZWM0NzJhNWU4OTE3ZDZjZmI5YjhiZjAxYmY3MDIzMmYwYmQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ivpbqsTk6QuScT76SLdZjx-lk6mN9A4qvjDwWv87F6k',
     link: 'https://cbbshotanalysis.streamlit.app/',
     github: 'https://github.com/rj7002/CBBShotAnalysis'
   },
   {
     title: 'NHL Shot Analysis',
     description: 'Dashboard that visualizes NHL shot attempts using data from MoneyPuck. Uses LightGBM model to calculate goal probability for each shot attempt. Incorporates DeepSeek LLM to analyze and breakdown individual shot attempts.',
-    image: 'https://images.unsplash.com/photo-1515703407324-5f753afd8be8?w=800&auto=format&fit=crop&q=60',
+    image: 'https://private-user-images.githubusercontent.com/160825414/418374906-e26f45fd-3c90-4c6b-91a0-4cf31891b75f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA0ODM2NzEsIm5iZiI6MTc3MDQ4MzM3MSwicGF0aCI6Ii8xNjA4MjU0MTQvNDE4Mzc0OTA2LWUyNmY0NWZkLTNjOTAtNGM2Yi05MWEwLTRjZjMxODkxYjc1Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwN1QxNjU2MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYjk2OWFjZWRlMTE5OWFhNTNjNDg5MzM3YzYwMmNmNzZjM2MyOTY1MDVkMTgzNmM3ODE1OGNkNTEzYWQ5MTY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.FdphcMgO45-2gcrD3xEO-cLm7t9Q5qdi0pVGmv5Q9_E',
     link: 'https://nhlshotanalysis.streamlit.app/',
     github: 'https://github.com/rj7002/NHLShotAnalysis'
   },
   {
     title: '3D MLB Visualizer',
     description: 'Visualizes hits and pitches from MLB games with 3D hit chart along with a 3D pitch chart using MLB Statcast data. Includes machine learning models to predict home run and strike probability for individual hits and pitches.',
-    image: 'https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=800&auto=format&fit=crop&q=60',
+    image: 'https://private-user-images.githubusercontent.com/160825414/385162292-665d3159-4672-4371-9080-2a62a8ae2a01.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA0ODM2OTYsIm5iZiI6MTc3MDQ4MzM5NiwicGF0aCI6Ii8xNjA4MjU0MTQvMzg1MTYyMjkyLTY2NWQzMTU5LTQ2NzItNDM3MS05MDgwLTJhNjJhOGFlMmEwMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwN1QxNjU2MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMGM0NzZkY2Y0YjQ5MWE0NmI4NzQyYzIzMzFiYzc4ZDMyNjBmOGY2ODJmMDdjY2QxOGFhZDQwMjg2MTZmZTNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.3PyWBiL7VJUtJrZFyu_WdVjNA8zXlzeQy1ibVfx2uuw',
     link: 'https://mlbvisualizer.streamlit.app/',
     github: 'https://github.com/rj7002/MLBVisualizer'
   },
   {
     title: 'NFL Passing Analyzer',
     description: 'Analyzes NFL passing data to provide insights into quarterback performance and passing trends. Features interactive visualizations and statistical breakdowns.',
-    image: 'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop&q=60',
+    image: 'https://private-user-images.githubusercontent.com/160825414/385161934-16770cf5-9132-4df2-854a-027ba0877529.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA0ODM3NDEsIm5iZiI6MTc3MDQ4MzQ0MSwicGF0aCI6Ii8xNjA4MjU0MTQvMzg1MTYxOTM0LTE2NzcwY2Y1LTkxMzItNGRmMi04NTRhLTAyN2JhMDg3NzUyOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwN1QxNjU3MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kYmIwZTI3NDI3MzEzZWQxMWZiNWE2NDU2MDNiMDQ1OGE5OTU3ZmU0ZWNjZjUzOGMzNzFmZWRiOTgyMTRjNDc0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.kuVe863MF9AiiWPH6zasq-dIAht_CicYzjX0alL5nPM',
     link: 'https://nflpassinganalyzer.streamlit.app/',
     github: 'https://github.com/rj7002/NFLPassingAnalysis'
   },
   {
     title: '3D Soccer Visualizer',
     description: 'Plots and visualizes soccer match data such as shots, passes, pressures, etc. on a 3D field. Uses statsbombpy Python API.',
-    image: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop&q=60',
+    image: 'https://private-user-images.githubusercontent.com/160825414/385161656-1a3aac01-00ca-49a1-b032-60381f73b118.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA0ODM3NjgsIm5iZiI6MTc3MDQ4MzQ2OCwicGF0aCI6Ii8xNjA4MjU0MTQvMzg1MTYxNjU2LTFhM2FhYzAxLTAwY2EtNDlhMS1iMDMyLTYwMzgxZjczYjExOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwN1QxNjU3NDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYjFiYTQ2ZmNkOTFjMDkyN2QyOTMxN2RiYWJlMjQ5ODUxNDVhMWRlNjk5OTk1ZTU2NzY0NDNkZDEzMzMyZTRjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.beLwSm9iaH2QYJQlb68GvMWTrvNJa9sWEhEyHcpweWo',
     link: 'https://3dsoccervisualizer.streamlit.app/',
     github: 'https://github.com/rj7002/Soccer3DVisualizer'
   },
   {
     title: 'NBA Shot Quality Predictor',
     description: 'A Streamlit dashboard that applies a trained xFG model to tracking data to compute shot-level xFG% and xPts. Provides player filtering, 3D court visualizations with shot arcs, per-game charts, descriptor radar, and summary metrics for shot analysis.',
-    image: 'https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?w=800&auto=format&fit=crop&q=60',
+    image: 'https://private-user-images.githubusercontent.com/160825414/546635627-498606eb-a71f-4261-8f4b-16143990ee1b.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA0ODQxNjQsIm5iZiI6MTc3MDQ4Mzg2NCwicGF0aCI6Ii8xNjA4MjU0MTQvNTQ2NjM1NjI3LTQ5ODYwNmViLWE3MWYtNDI2MS04ZjRiLTE2MTQzOTkwZWUxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwN1QxNzA0MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNWU1MjcxZDc1Y2QxNDM2ZGQ5NjY0MjllYWE4NmQ4ZDY2ZmE1NjJmMWIxODg5ODg5ZGMxMzZkNWI4NjU5NjY0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.GKp9cJPbR7Ov3swWspb1bAFhPhQy0nES43e6aVV32Jg',
     link: 'https://nbashotqualitypredictor.streamlit.app/',
     github: 'https://github.com/rj7002/NBAShotQualityPredictor'
   }
@@ -94,7 +94,7 @@ const projects: Project[] = [
 
 const skills = {
   languages: ['Python', 'Java', 'R', 'TypeScript', 'JavaScript', 'SQL', 'HTML/CSS'],
-  frameworks: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy', 'LangChain', 'Qiskit'],
+  frameworks: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy', 'LangChain', 'Qiskit', 'LangChain', 'LangGraph', 'Flask'],
   tools: ['Git', 'Docker', 'Jupyter', 'Streamlit', 'Plotly', 'React']
 };
 
