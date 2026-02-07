@@ -94,7 +94,7 @@ const projects: Project[] = [
 
 const skills = {
   languages: ['Python', 'Java', 'R', 'TypeScript', 'JavaScript', 'SQL', 'HTML/CSS'],
-  frameworks: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy', 'LangChain', 'Qiskit', 'LangChain', 'LangGraph', 'Flask'],
+  frameworks: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy', 'Qiskit', 'LangChain', 'LangGraph', 'Flask'],
   tools: ['Git', 'Docker', 'Jupyter', 'Streamlit', 'Plotly', 'React']
 };
 
