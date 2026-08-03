@@ -10,36 +10,47 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-accent hover:bg-yellow-500 text-slate-900 font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl;
+    @apply bg-accent text-slate-950 font-semibold py-2.5 px-6 rounded-full transition-all duration-300 hover:bg-accent-light hover:shadow-lg hover:shadow-accent/20;
   }
-  
-  .card {
-    @apply bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:bg-white/15;
+
+  .btn-secondary {
+    @apply bg-white/5 text-white font-semibold py-2.5 px-6 rounded-full border border-white/15 transition-all duration-300 hover:bg-white/10 hover:border-accent/40;
   }
-  
+
   .section-title {
-    @apply text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent;
+    @apply text-xl font-semibold tracking-tight text-white mb-8;
   }
-  
+
+  .entry-static {
+    animation: fadeIn 0.4s ease-out both;
+  }
+
+  .entry-card {
+    @apply bg-white/[0.03] border border-white/10 rounded-xl p-5 transition-colors duration-300 hover:border-accent/30 hover:bg-white/[0.05];
+  }
+
   .nav-link {
-    @apply text-gray-300 hover:text-accent transition-colors duration-300 font-medium;
+    @apply text-slate-400 hover:text-white transition-colors duration-200 text-sm;
+  }
+
+  .nav-link.active {
+    @apply text-accent bg-accent/10;
   }
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1e293b;
+  background: #020617;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3b82f6;
-  border-radius: 5px;
+  background: #2dd4bf40;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563eb;
+  background: #2dd4bf80;
 }

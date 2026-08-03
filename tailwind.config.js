@@ -9,7 +9,8 @@ export default {
       colors: {
         primary: '#1e3a8a',
         secondary: '#3b82f6',
-        accent: '#fbbf24',
+        accent: '#2dd4bf',
+        'accent-light': '#5eead4',
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-in',
