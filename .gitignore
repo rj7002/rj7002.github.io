@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependencies live here so iCloud Drive does not sync or offload them
+node_modules.nosync
